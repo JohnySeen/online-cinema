@@ -1,0 +1,145 @@
+-var pageTitle = 'TVTVTV'
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style
+        include styles/style.css
+        include styles/normalize.css
+  body
+    include modules/header
+
+    section.section-banner
+      img(src="images/banner.png", alt="banner").section-banner_image
+      .container
+        .banner 
+          h1.banner_title Zack Snyder's Justice League
+          .banner-info
+            span.banner-info_year 2021
+            span.banner-info_age 18+
+            span.banner-info_time 4h 2min
+            span.banner-info_rating 8.8
+          p.banner-text Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.    
+          .banner-control
+            button.banner-control_btn.banner-control_btn_main Watch
+            button.banner-control_btn.banner-control_btn_more More information
+    section.section
+      .container
+        h2.section_h2
+          a(href="#").section_h2_link Trending TV Shows >
+        .movies
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/11.png", alt="poster1").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster2.png", alt="poster2").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster3.png", alt="poster3").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster4.png", alt="poster4").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster5.png", alt="poster5").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster6.png", alt="poster6").movies_img
+    section.section
+      .container
+        h2.section_h2
+          a(href="#").section_h2_link Trending Movies >
+        .movies
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/11.png", alt="poster1").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster2.png", alt="poster2").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster3.png", alt="poster3").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster4.png", alt="poster4").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster5.png", alt="poster5").movies_img
+          .movies-item
+            a(href="").movies_link
+              img(src="images/movies/poster6.png", alt="poster6").movies_img
+        button.section_btn See more
+    section.section
+      .container
+        h2.section_h2
+          a(href="#").section_h2_link Popular Genres >
+        .genres
+          .genres-item.genres-item_romance
+            .genres-icon
+              img(src="images/genres/hearts 1.svg", alt="romance").genres_image
+            h3.genres_title Romance
+          .genres-item.genres-item_drama
+            .genres-icon
+              img(src="images/genres/cinema 1.svg", alt="Drama").genres_image
+            h3.genres_title Drama
+          .genres-item.genres-item_historical
+            .genres-icon
+              img(src="images/genres/castle 1.svg", alt="Historial").genres_image
+            h3.genres_title Historical
+          .genres-item.genres-item_action
+            .genres-icon
+              img(src="images/genres/killer 1.svg", alt="Action").genres_image
+            h3.genres_title Action
+          .genres-item.genres-item_sci-fi
+            .genres-icon
+              img(src="images/genres/rocket 1.svg", alt="Sci-fi").genres_image
+            h3.genres_title Sci-fi
+          .genres-item.genres-item_horror
+            .genres-icon
+              img(src="images/genres/ghost.svg", alt="Horror").genres_image
+            h3.genres_title Horror
+          .genres-item.genres-item_comedy
+            .genres-icon
+              img(src="images/genres/smile.svg", alt="Comedy").genres_image
+            h3.genres_title Comedy
+          .genres-item.genres-item_documentary
+            .genres-icon
+              img(src="images/genres/documentary 1.svg", alt="Documentary").genres_image
+            h3.genres_title Documentary
+    section.section
+      .container
+        h2.section_h2
+          a(href="#").section_h2_link  Popular Actors & Directors >
+        .actors
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor1.png", alt="actor1").actors_image
+            h3.actors-title Samantha Bowen
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor2.png", alt="actor2").actors_image
+            h3.actors-title Rhys Birch
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor3.png", alt="actor3").actors_image
+            h3.actors-title James Holloway
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor4.png", alt="actor4").actors_image
+            h3.actors-title Joshua Walton
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor5.png", alt="actor5").actors_image
+            h3.actors-title Patrick Elliott
+          .actors-item
+            a(href="#").actors_link
+              img(src="images/actors/actor6.png", alt="actor6").actors_image
+            h3.actors-title Morgan O'Neill
+    section.section
+      .container
+        .offer
+          h2.offer_title Are You New Here ?Don't&nbspwait, Register Now.
+          button.offer_btn Register Now
+    include modules/footer
